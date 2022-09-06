@@ -18,6 +18,10 @@ window.addEventListener('load', () => {
         Task_4(data);
         Task_7(data);
         journeyBoard(data);
+
+        if(screen.width < 600) {
+            alert('Warning: This Page is Build for Big screens like Desktops etc. Do not View it on Mobile')
+        }
     })
 })
 
